@@ -1,0 +1,94 @@
+{
+    "Fundacje": [
+    
+      {
+        "superTitle": "W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.",
+          "title": "Dbam o zdrowie",
+          "text": "Cel i misja: Pomoc następująca była sytuacja w sytuacji życiowej.",
+          "items": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+      },
+      {
+        "title": "Dla dzieci",
+        "text": "Cel i misja: Pomoc dzieciom z ubogich rodzin.",
+        "items": "ubrania, meble, zabawki"
+      },
+      {
+        "title": "Dla dzieci",
+        "text": "Cel i misja: Pomoc dzieciom z ubogich rodzin.",
+        "items": "ubrania, meble, zabawki"
+      }
+ 
+
+    ],
+    "Organizacje": [
+      {
+        "superTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+       
+          "title": "Or654534534534543 1”",
+          "text": "Quis varius quam quisque id diam vel quam hobbym pulvinar.",
+          "items": "ubrania, jedzenie"
+      },
+      {
+        "title": "Org321312312m Ipsum 2”",
+        "text": "Quis varius quam quisque id diam vel quam hobbym pulvinar.",
+        "items": "ubrania, meble, zabawki"
+      },
+      {
+        "title": "Organ543534534534m Ipsum 3”",
+        "text": "Quis varius quam quisque id diam vel quam hobbym pulvinar.",
+        "items": "Mi, quis, hendrerit, dolor"
+      },
+      {
+        "title": "Org321312312m Ipsum 2”",
+        "text": "Quis varius quam quisque id diam vel quam hobbym pulvinar.",
+        "items": "ubrania, meble, zabawki"
+      },
+      {
+        "title": " 3”",
+        "text": "Quis varius quam quisque id diam vel quam hobbym pulvinar.",
+        "items": "Mi, quis, hendrerit, dolor"
+      },
+      {
+        "title": " Ipsum 2”",
+        "text": "Quis varius quam quisque id diam vel quam hobbym pulvinar.",
+        "items": "ubrania, meble, zabawki"
+      },
+      {
+        "title": "Ipsum 3”",
+        "text": "Quis varius quam quisque id diam vel quam hobbym pulvinar.",
+        "items": "Mi, quis, hendrerit, dolor"
+      }
+    ],
+    "Inne": [
+     
+      {
+        "superTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+
+          "title": "afdafadfdasfadsfdsa”",
+          "text": "Hendrerit gravida rutrum quisque non tellus orci auctor augue.",
+          "items": "Ut, aliquam, purus, usiądź, amet"
+      },
+      {
+        "title": "Zafdafadsfdas”",
+        "text": "Hendrerit gravida rutrum quisque non tellus orci auctor augue.",
+        "items": "Ut, aliquam, purus, usiądź, amet"
+      },
+      {
+        "title": "afdfdafadfadfads”",
+        "text": "Hendrerit gravida rutrum quisque non tellus orci auctor augue.",
+        "items": "Mi, quis, hendrerit, dolor"
+      }
+      ,
+      {
+        "title": "Zafdafadsfdas”",
+        "text": "Hendrerit gravida rutrum quisque non tellus orci auctor augue.",
+        "items": "Ut, aliquam, purus, usiądź, amet"
+      },
+      {
+        "title": "afdfdafadfadfads”",
+        "text": "Hendrerit gravida rutrum quisque non tellus orci auctor augue.",
+        "items": "Mi, quis, hendrerit, dolor"
+      }
+    ]
+}
+     

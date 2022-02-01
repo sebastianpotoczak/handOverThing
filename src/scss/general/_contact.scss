@@ -1,0 +1,229 @@
+.contact{
+    background-image: url("../../assets/Background-Contact-Form.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+  
+    &::after{
+        background-color: #FFFFFFC9;
+       top: 0;
+       left: 0;
+       right: 0;
+       bottom: 0;
+        position: absolute;
+        content: "";
+        z-index: 2;
+    }
+    .contact_contain{
+       z-index: 10;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        position: absolute;
+        right: 0;
+        @include tablet{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+    }
+    .contact_text{
+       
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 50;
+        
+        font-family: $primaryFont;
+        h1{
+            font-size: 38px;
+            margin-bottom: 30px;
+            text-align: center;
+            
+        }
+        input{
+            width: 528px;
+            height: 97px;
+            border-top:none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 2px solid #3C3C3C26;
+            z-index: 51;
+            background-color: rgba(0,0,0 , 0);
+
+        }
+        p{
+            margin-top: 40px;
+            font-size: 16px;
+            font-weight: bold;
+          
+          
+           
+        }
+        div{
+            @include mobile{
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                max-width: 300px;
+            }
+        }
+        textarea{
+            width: 528px;
+            height: 97px; 
+            border-top:none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 2px solid #3C3C3C26;
+            z-index: 51;
+            resize: none;
+            background-color: rgba(0,0,0 , 0);
+           @include mobile{
+               width: 100%;
+               
+           }
+        }
+        
+    }
+    
+    .contact_name{
+        display: flex;
+        @include mobile{
+            flex-direction: column;
+            display: flex;
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+
+        }
+        div{
+            margin-top: 76px;
+            @include mobile{
+                margin: 0;
+            }
+          
+            p{
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+        }
+        input{
+            width: 256px;
+            height: 24px;
+            border-top:none;
+            border-left: none;
+            border-right: none;
+            &:nth-last-of-type(1){
+                margin-right: 5px;
+            }
+        }
+    }
+}
+.last_input{
+  margin-bottom: 10px;
+  display: flex;
+ 
+  
+}
+.button_contact{
+    display: flex;
+    margin-left: 380px;
+    @include mobile{
+        margin: 0;
+    }
+    .contact_button{
+        margin-top: 44px;
+       border: 2px solid #3C3C3C26;
+       padding: 13px 55px;
+       text-decoration: none;
+       font-weight: bold;
+    }
+
+}
+.footer{
+    font-family: $primaryFont;
+    font-weight: bold;
+    z-index: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: flex-end;
+  
+    h3{
+        margin-bottom: 15px;
+     
+    }
+    a{
+        z-index: 100;
+        background-image: url('../../assets/Instagram.svg');
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 140px;
+        bottom: 10px;
+        @include mobile{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+      
+        &:nth-of-type(2){
+            
+            margin-right: 50px;
+            background-image: url('../../assets/Facebook.svg');
+        }
+       
+    }
+    
+}
+.footer_title{
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    position: absolute;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    bottom: 10px;
+    @include mobile{
+        display: none;
+    }
+}
+
+
+.name_error{
+    color: red;
+    display: none;
+}
+.text_error{
+    color: red;
+    display: none;
+}
+.email_error{
+    color: red;
+    display: none;
+}
+.contact_success{
+    color: green;
+    font-family: $primaryFont;
+    font-weight: bold;
+    margin-top: 15px;
+    line-height: 25px;
+}

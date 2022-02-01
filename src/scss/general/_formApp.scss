@@ -1,0 +1,384 @@
+.form_info{
+    width: 100%;
+    height: 180px;
+    background-color: #FAD648;
+    .form_info_content{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 1400px;
+        font-family: $primaryFont;
+        width: 100%;
+        height: 100%;
+    }
+    h1{
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 22px;
+
+    }
+}
+
+
+
+
+.form_app_element{
+    display: flex;
+    
+    p{
+        display: flex;
+    }
+}
+.form_flex{
+    display: flex;
+}
+.form_elements2{
+    display: flex;
+    flex-direction: column;
+}
+.Form_first{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    margin-left: 142px;
+    justify-content: center;
+    flex-direction: column;
+    font-family: $primaryFont;
+    font-weight: bold;
+    h1{
+    
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+       
+    }
+   a{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+        width: 180px;
+        height: 79px;
+        border:  1px solid #3C3C3C;
+        text-decoration: none;
+         color: #3C3C3C;
+         margin-top: 70px;
+    }
+   div{
+       display: flex;
+       align-items: center;
+       text-align: left;
+       margin-bottom: 46px;
+     
+       
+      input{
+          cursor: pointer;
+            width: 40px;
+            height: 40px;
+           border: 1px solid #3C3C3C;
+           display: flex;
+           -webkit-appearance: none;
+            margin: 0 !important;
+            border-radius: 0 !important;
+            &:checked{
+                background-color: #FAD648;
+            }
+        
+         
+      
+       }
+      p{
+        margin-left: 30px;
+      }
+
+  
+     
+   }
+}
+.forms_app{
+    width: 100%;
+    height: 80vh;
+    background-image: url("../../assets/Background-Form.jpg");
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.form_app{
+   position: relative;
+    width: 100%;
+    height: 100%;
+ 
+
+}
+
+.form_steps{
+ position: absolute;
+ left: 142px;
+ top: 40px;
+}
+.form_result{
+    position: absolute;
+    left: 142px;
+    top: 40px;
+    font-size: 36px;
+    font-family: $primaryFont;
+    font-weight: bold;
+   }
+   
+.button_send_form{
+    width: 180px;
+    height: 79px;
+    background: none;
+    border: 1px solid black;
+    margin-right: 10px;
+    position: absolute;
+    bottom: 21px;
+    left: 350px;
+
+}
+.multi_button {
+ 
+    
+    position: absolute;
+    top: 650px;
+    left: 142px;
+    button{
+        width: 180px;
+        height: 79px;
+        background: none;
+        border: 1px solid black;
+        margin-right: 10px;
+    }
+   
+}
+.second_form_element{
+    display: flex;
+    margin-left: 143px;
+    font-family: $primaryFont;
+    font-size: 24px;
+    align-items: center;
+    margin-bottom: 405px;
+  
+    margin-top:57px;
+  
+    select{
+        width: 300px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: none;
+        font-size: 24px;
+        font-family: $primaryFont;
+        margin-left: 44px;
+        background-color: transparent;
+        border: 0.75px solid $accentColor;
+        background-color: $primaryColor;
+      
+      
+    }
+}
+.second_element{
+    width: 85px;
+    background: none;
+    background-color: transparent;
+}
+.form_third{
+
+        height: 100%;
+        width: 50%;
+        display: flex;
+        margin-left: 142px;
+        justify-content: center;
+        flex-direction: column;
+        font-family: $primaryFont;
+        font-weight: bold;
+        h1{
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+       a{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+            width: 180px;
+            height: 79px;
+            border:  1px solid #3C3C3C;
+            text-decoration: none;
+             color: #3C3C3C;
+             margin-top: 70px;
+        }
+       div{
+           display: flex;
+           align-items: center;
+           text-align: left;
+           margin-bottom: 20px;
+         
+           
+          input{
+              cursor: pointer;
+                width: 40px;
+                height: 40px;
+               border: 1px solid #3C3C3C;
+               display: flex;
+               -webkit-appearance: none;
+                margin: 0 !important;
+                border-radius: 0 !important;
+                &:checked{
+                    background-color: #FAD648;
+                }
+            
+             
+          
+           }
+          p{
+            margin-left: 30px;
+          }
+    
+      
+         
+      
+    }
+}
+.help_organization{
+
+    .help_write{
+        width: 700px;
+        border: 0.75px solid $accentColor;
+        background-color: $primaryColor;
+    }
+}
+.local{
+    width: 100%;
+    height: 100%;
+
+    &_title{
+        font-size: 36px;
+        margin-right: 100px;
+    }
+    select{
+        width: 300px;
+        font-size: 26px;
+        border: 0.75px solid $accentColor;
+        background-color: $primaryColor;
+        font-family: $primaryFont;
+    }
+}
+
+.addres_form{
+    display: flex;
+    margin-left: 142px;
+    height: 100%;
+    .left_site{
+        width: 25%;
+        height: 100%;
+     
+        display: flex;
+        flex-direction: column;
+      
+        h2{
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            font-family: $primaryFont;
+        }
+      
+       
+       label{
+           display: flex;
+           align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            h3{
+                font-size: 24px;
+                font-family: $primaryFont;
+            }
+            input{
+               background-color: $primaryColor;
+               border: 0.75px solid $accentColor;
+               height: 40px;
+               width: 256px;
+            }
+       }
+    }    
+    .right_site{
+        height: 100%;
+        width: 25%;
+        margin-left: 52px;
+       
+        h2{ 
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            font-family: $primaryFont;
+        }
+        label{
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            input{
+                background-color: $primaryColor;
+                border: 0.75px solid $accentColor;
+                height: 40px;
+                width: 256px;
+             }
+            .delivery_info{
+                width: 256px;
+                height: 70px;
+                resize: none;
+                background-color: $primaryColor;
+                border: 0.75px solid $accentColor;
+            
+            }
+             h3{
+                font-size: 24px;
+                font-family: $primaryFont;
+            }
+            
+        }
+    }
+}
+.second_title{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+.result_info{
+    margin-left: 142px;
+    margin-bottom: 40px;
+   .result_info_contain{
+    display: flex;
+    align-items: center;
+ 
+   }
+}
+.error_title_result{
+    font-family: $primaryFont;
+    font-weight: bold;
+}
+
+
+.multi_step{
+    &::last-of-type{
+        display: none;
+    }
+}
+
+.form_finally{
+  
+    font-size: 35px;
+    font-family: $primaryFont;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}

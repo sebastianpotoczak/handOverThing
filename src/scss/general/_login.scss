@@ -1,0 +1,131 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    font-family: $primaryFont;
+  
+    .login_contain{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+       align-items: flex-start;
+       
+        height: 45%;
+    }
+    .login_form{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        width: 100%;
+        height: 100%;
+        img{
+            margin-bottom: 66px;
+        }
+       h1{
+           font-size: 40px;
+           font-weight: bold;
+           margin-bottom: 25px;
+
+       }
+       .login_input{
+          
+           width: 384px;
+            height: 220px;
+           background-color: #F0F1F1;
+           justify-content: center;
+           align-items: center;
+           display: flex;
+           flex-direction: column;
+          
+           
+         
+           
+            p{
+                font-weight: bold;
+            }
+           input{
+            width: 256px;
+            height: 24px;
+            border-top:none;
+            border-left: none;
+            border-right: none;
+            background-color: #F0F1F1;
+           }
+       }
+       .login_element{
+        margin-bottom: 31px;
+
+       }
+       .login_submit{
+           
+           display: flex;
+           margin-top: 53px;
+           justify-content: space-evenly;
+           width: 100%;
+           a{
+               text-decoration: none;
+               color:#000000;
+               border: 1px solid #3C3C3C;
+               padding: 13px 15px;
+           }
+       }
+    }
+}
+
+.register_input{
+   
+    width: 384px;
+    height: 290px;
+   background-color: #F0F1F1;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+  
+   
+ 
+   
+    p{
+        font-weight: bold;
+    }
+   input{
+    width: 256px;
+    height: 24px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    background-color: #F0F1F1;
+   }
+
+}
+.login_error{
+    color: red;
+    font-family: $primaryFont;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.register_error{
+    margin-top: 5px;
+    color: red;
+    font-weight: bold;
+}
+.logout_input{
+    width: 384px;
+    height: 220px;  
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+    font-family: $primaryFont;
+    a{
+        border: 1px solid #3C3C3C;
+        padding: 13px 17px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+}

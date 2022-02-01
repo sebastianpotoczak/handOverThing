@@ -1,0 +1,123 @@
+@import '../config/mixin';
+
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    .header_right{
+        background-image: url("../../assets/Home-Hero-Image.jpg");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        height: 100%;
+        @include tablet{
+            display: none;
+        }
+      
+
+    }
+    .header_left{
+        
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        margin-left: 90px;
+        font-size: 38px;
+        @include notebook{
+                
+                justify-content: center;
+                align-items: center;
+               margin-left: 0;
+                display: flex;
+                height: 100%;
+
+        }
+     
+        
+       
+       
+       
+        .text{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            text-align: center;
+            color: #3C3C3C;
+            @include tablet{
+                align-items: center;
+                justify-content: center;
+                
+            }
+            
+           
+            }
+            .title{
+                font-family: $primaryFont;
+                font-weight: bold;
+               h1{
+                @include mobile{
+                    font-size: 20px;
+                }
+               }
+            }
+            img{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+               margin: 25px auto;
+            }
+            .button_header{
+                font-size: 32px;
+                display: flex;
+                width: 674px;
+                justify-content: space-around;
+            
+
+                @include mobile{
+                    flex-direction: column;
+                    height: 200px;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                }
+               
+                a{
+                    font-family: $primaryFont;
+                    display: flex;
+                   width: 310px;
+                   height: 120px;
+                   margin: 15px 45px;
+                    text-decoration: none;
+                    color: #3C3C3C;
+                    border: 1px solid #3C3C3C;
+                    width: 100%;
+                    justify-content: center;
+                    align-items: center;
+                    @include tablet{
+                        width: 100%;
+                        height: 100%;
+                        flex-direction: column;
+                       
+                    }
+                    @include mobile{
+                        width: 300px;
+                    }
+                   
+                   
+                }
+            }
+           
+        }
+
+       
+        
+    }
